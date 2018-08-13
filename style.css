@@ -1,0 +1,193 @@
+/********* GRID  **********/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 399px;
+    float: left;
+    margin: 0 auto;
+}
+
+/******* HEADER  ********/
+
+
+h1 {
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;;
+    margin-top: 50px;
+}
+
+.rogue {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+}
+
+img    {
+    border-bottom: #77a466 solid 3px;
+    border-top: #77a466 solid 3px;
+    height: auto;
+    float: left;
+}
+
+
+/****  ABOUT SECTION ****/
+
+
+#about h3 {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #77a466;
+    font-size: 18px;  
+    clear: both; 
+    text-align: left;
+	padding: 5px 0;
+}
+
+#about p {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+/**** MENU Section ****/
+
+.menu h3 {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 0;
+   
+}
+
+.menu ul li {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    color: #a2bf98;
+    padding: 10px 0;
+   
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+}
+
+/*** REVIEWS Section ***/
+
+#reviews {
+    padding-right: 50px;
+    height: auto;
+    border-top: solid 1px #eee;
+}
+
+#reviews h3 {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px;
+   
+}
+
+#reviews p {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 10px;
+   
+}
+
+/**** LOCATION Section ***/
+
+
+#location h3 {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+
+#location p {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24pt;
+    padding-left: 10px;
+}
+
+/***** FOOTER  ****/
+
+footer {
+    clear: both;   
+    border-top: solid 1px #eee;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h4 {
+    font-family: houschka-rounded, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+footer .fresh {
+    color: #acc5a3;
+    text-transform: lowercase;
+    font-size: 12px;
+}
+
+#reviews .third-width {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
